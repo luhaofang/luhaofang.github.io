@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-25T02:33:58.181Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="rlZn9rUM0VxWHiUApgTh" version="20.4.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-10-25T02:35:57.109Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="aQcR_gZIdgEU16C6J3Pb" version="20.4.1" type="github" pages="5">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
     <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -504,7 +504,7 @@
         <mxCell id="i2hivSFU711nQTJMb_Vz-6" value="构建2D目标物体的检测中心点，结合S2步骤中的检测框点数据，构建透视变换映射点坐标。" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="150" y="192" width="330" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="i2hivSFU711nQTJMb_Vz-7" value="并结合步骤S3中的异常距离标注，对模型进行训练" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="i2hivSFU711nQTJMb_Vz-7" value="设计模型训练策略，包含2部分：a)拟合透视变换矩阵；b)拟合异常距离标注。模型训练过程中，通过目标权重，对2个拟合目标进行优化。" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="150" y="370" width="330" height="60" as="geometry" />
         </mxCell>
         <mxCell id="i2hivSFU711nQTJMb_Vz-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;" edge="1" parent="1" source="i2hivSFU711nQTJMb_Vz-11" target="i2hivSFU711nQTJMb_Vz-7">
