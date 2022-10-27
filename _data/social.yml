@@ -1,6 +1,6 @@
-- title: Twitter
-  url: https://twitter.com/ngzhio
-  icon: fab fa-twitter
+- title: Zhihu
+  url: https://www.zhihu.com/people/david-lu
+  icon: fab fa-zhihu
 - title: GitHub
-  url: https://github.com/ngzhio/jekyll-theme-hamilton
+  url: https://github.com/luhaofang
   icon: fab fa-github

@@ -1,14 +1,14 @@
-- title: About
+- title: 关于本小站
   url: /about/
-- title: Years
+- title: 日期
   url: /years/
-- title: Categories
+- title: 目录
   url: /categories/
-- title: Tags
+- title: 标签
   url: /tags/
-- title: More
+- title: 更多
   sublinks:
     - title: FAQ
       url: /faq/
-    - title: Docs
+    - title: 文章
       url: /docs/
