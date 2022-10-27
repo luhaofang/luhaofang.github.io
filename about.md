@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: 关于本小站
+permalink: /关于本小站/
 ---
 
 假设：人类的平均学习速率是α，人类在某一学科的知识总量是K，人类的寿命是δ，若：K/α >> δ，

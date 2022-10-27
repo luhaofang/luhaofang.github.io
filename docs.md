@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Docs
-permalink: /docs/
+title: 文章
+permalink: /文章/
 ---
 
 A documentation page.
