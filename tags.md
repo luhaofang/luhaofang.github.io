@@ -1,6 +1,6 @@
 ---
 layout: archive-taxonomies
 type: tags
-title: Tags
-permalink: /tags/
+title: 标签
+permalink: /标签/
 ---
