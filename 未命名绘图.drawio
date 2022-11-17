@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-17T01:49:38.382Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Ti20AVSe3kheqQsUR7SV" version="20.5.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-11-17T02:00:04.978Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="lBjlVh5uL81n3jhJFbU-" version="20.5.1" type="github" pages="8">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
     <mxGraphModel dx="1422" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -301,7 +301,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="2UxYebT93SrugAgzcJ8o" name="第 3 页">
-    <mxGraphModel dx="652" dy="363" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="823" dy="459" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -478,7 +478,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="YwBUzzUTMv1vwD1zloMz" name="第 5 页">
-    <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="978" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -487,7 +487,7 @@
             <mxPoint x="300" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="i2hivSFU711nQTJMb_Vz-2" value="选取训练数据脚点，对图片进行透视变换为俯视图，并计算变换矩阵。" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="i2hivSFU711nQTJMb_Vz-2" value="Select the training data foot point, perform perspective transformation on the data to the top plane view, and calculate the transformation matrix." style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="150" y="100" width="330" height="62" as="geometry" />
         </mxCell>
         <mxCell id="i2hivSFU711nQTJMb_Vz-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;" parent="1" source="i2hivSFU711nQTJMb_Vz-4" target="i2hivSFU711nQTJMb_Vz-2" edge="1">
@@ -501,19 +501,19 @@
             <mxPoint x="315" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="i2hivSFU711nQTJMb_Vz-6" value="构建2D目标物体的检测中心点，结合S2步骤中的检测框点数据，构建透视变换映射点坐标。" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="i2hivSFU711nQTJMb_Vz-6" value="Build the detection center point of 2D target object, and combine the bounding box point data in S2 step to build the perspective transformation mapping point coordinates." style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="150" y="192" width="330" height="60" as="geometry" />
         </mxCell>
         <mxCell id="U6vD1xCNfsLYZ8OHD4Gl-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;" parent="1" source="i2hivSFU711nQTJMb_Vz-7" target="Pe5V-tKwPFvDiFGpmGI7-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="i2hivSFU711nQTJMb_Vz-7" value="设计模型训练策略，包含2部分：a)拟合透视变换矩阵；b)拟合异常距离标注。模型训练过程中，通过目标权重，对2个拟合目标进行优化。" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="i2hivSFU711nQTJMb_Vz-7" value="Design the model training strategy, including two parts: a) fitting perspective transformation matrix; b) Fit the abnormal distance dimension distribution. In the process of model training, two fitting targets are optimized by weight." style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="150" y="370" width="330" height="60" as="geometry" />
         </mxCell>
         <mxCell id="i2hivSFU711nQTJMb_Vz-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;" parent="1" source="i2hivSFU711nQTJMb_Vz-11" target="i2hivSFU711nQTJMb_Vz-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="i2hivSFU711nQTJMb_Vz-11" value="选取视觉模型，构建透视变换矩阵即俯视平面尺寸缩放的模型参数。" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="i2hivSFU711nQTJMb_Vz-11" value="Select the deep model backbone, build the perspective transformation matrix, and the top plane view size scaling model." style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="150" y="280" width="330" height="60" as="geometry" />
         </mxCell>
         <mxCell id="i2hivSFU711nQTJMb_Vz-12" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;rounded=0;strokeColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1">
@@ -522,8 +522,8 @@
             <mxPoint x="520" y="127" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="i2hivSFU711nQTJMb_Vz-13" value="步骤S4-1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="513" y="112" width="70" height="30" as="geometry" />
+        <mxCell id="i2hivSFU711nQTJMb_Vz-13" value="Step S4-1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="508" y="112" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="i2hivSFU711nQTJMb_Vz-14" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;rounded=0;strokeColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -531,8 +531,8 @@
             <mxPoint x="520" y="195" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="i2hivSFU711nQTJMb_Vz-15" value="步骤S4-2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="513" y="180" width="70" height="30" as="geometry" />
+        <mxCell id="i2hivSFU711nQTJMb_Vz-15" value="Step S4-2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="508" y="180" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="i2hivSFU711nQTJMb_Vz-16" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;rounded=0;strokeColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -540,8 +540,8 @@
             <mxPoint x="521" y="305" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="i2hivSFU711nQTJMb_Vz-17" value="步骤S4-3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="514" y="290" width="70" height="30" as="geometry" />
+        <mxCell id="i2hivSFU711nQTJMb_Vz-17" value="Step S4-3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="509" y="290" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="i2hivSFU711nQTJMb_Vz-18" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;rounded=0;strokeColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -549,10 +549,10 @@
             <mxPoint x="521" y="385" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="i2hivSFU711nQTJMb_Vz-19" value="步骤S4-4" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="514" y="370" width="70" height="30" as="geometry" />
+        <mxCell id="i2hivSFU711nQTJMb_Vz-19" value="Step S4-4" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="509" y="370" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Pe5V-tKwPFvDiFGpmGI7-1" value="定义模型的输出逻辑，计算目标的物体距离。" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="Pe5V-tKwPFvDiFGpmGI7-1" value="Define the output logic of the model and calculate the object distance of the target." style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="150" y="460" width="330" height="60" as="geometry" />
         </mxCell>
         <mxCell id="U6vD1xCNfsLYZ8OHD4Gl-2" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;rounded=0;strokeColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1">
