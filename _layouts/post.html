@@ -87,7 +87,8 @@ layout: default
   </footer>
 
   {% if page.comments != false and jekyll.environment == "production" and site.disqus %}
-    {% include disqus.html %}
+    {% include gitment.html %}
   {% endif %}
+
   
 </article>
