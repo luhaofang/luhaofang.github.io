@@ -85,10 +85,8 @@ layout: default
       {% endif %}
     </nav>
   </footer>
-
-  {% if page.comments != false and jekyll.environment == "production" and site.disqus %}
-    {% include gitment.html %}
-  {% endif %}
+  
+  {% include gitment.html %}
 
   
 </article>
