@@ -14,7 +14,7 @@ paginate: 10
 
 # Uncomment the below line and set the tracking ID for enabling Google Analytics
 # 
-google_analytics: G-3XR9WX84BZ
+# google_analytics: G-3XR9WX84BZ
 
 # Uncomment the below lines and set the Disqus shortname for enabling Disqus
 # 
