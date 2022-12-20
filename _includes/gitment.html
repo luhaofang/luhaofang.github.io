@@ -1,21 +1,25 @@
-<!-- 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css"> 
-<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>  
-or -->
 
-<div id="gitalk-container"></div> 
-<script>
-var gitalk = new Gitalk({   
-     clientID: '1569b77b50a41fe8ead1',   
-     clientSecret: '71664954c5e76329778ddaa90c1d29577db86095',   
-     repo: 'luhaofang.github.io',   
-     owner: 'luhaofang',   
-     admin: ['luhaofang'],   
-     id: title,      // 请确保你的 location 连接小于 50 个字符，否则，插件会生成失败   
-     distractionFreeMode: false // 专注模式 
-})  
-gitalk.render('gitalk-container')
-</script>
+<!-- Link Gitalk 的支持文件  -->
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script> 
+<script type="text/javascript" src="/assets/js/md5.min.js"></script>
+<div id="gitalk-container"></div>     
+<script type="text/javascript">
+    var gitalk = new Gitalk({
+ 
+    // gitalk的主要参数
+        clientID: '1569b77b50a41fe8ead1',
+        clientSecret: '71664954c5e76329778ddaa90c1d29577db86095',
+        repo: 'luhaofang.github.io',
+        owner: 'luhaofang',
+        admin: ['luhaofang'],
+        id: md5(location.pathname),
+        
+    });
+    gitalk.render('gitalk-container');
+</script> 
+<!-- Gitalk end -->
+
 <!-- 
 <div id="gitmentContainer"></div>
 <link rel="stylesheet" href="https://jjeejj.github.io/css/gitment.css">
