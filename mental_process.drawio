@@ -1,9 +1,106 @@
-<mxfile host="app.diagrams.net" modified="2023-08-31T11:32:37.365Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.62" version="21.7.1" etag="OXxpA8soWJYtGOK2p1Je" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-31T13:07:16.668Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.62" etag="W0l4_lzeyWkZgHE7if6-" version="21.7.1" type="github" pages="4">
   <diagram name="第 1 页" id="JVmywb1ge9BaSjKXIgKy">
-    <mxGraphModel>
+    <mxGraphModel dx="906" dy="631" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Uve08fc0GKx82RVhXPgx-1" value="task&lt;br&gt;prompt&lt;br&gt;(upstream)" style="triangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="245" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Uve08fc0GKx82RVhXPgx-2" value="chat:&lt;br&gt;1.usermessage&lt;br&gt;(role:assistant)&lt;br&gt;meta:&lt;br&gt;1.upstream&lt;br&gt;(role:assistant, interface, parameter)" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="Uve08fc0GKx82RVhXPgx-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="294.5" as="sourcePoint" />
+            <mxPoint x="160" y="295" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uve08fc0GKx82RVhXPgx-3" value="meta:&lt;br&gt;custom instruction&lt;br&gt;(role:&quot;system&quot;, &quot;function&quot;, &quot;interface&quot;, &quot;parameter&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="50" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Uve08fc0GKx82RVhXPgx-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uve08fc0GKx82RVhXPgx-3" target="Uve08fc0GKx82RVhXPgx-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="380" as="sourcePoint" />
+            <mxPoint x="200" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="630" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uve08fc0GKx82RVhXPgx-5" value="meta" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="265" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uve08fc0GKx82RVhXPgx-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Uve08fc0GKx82RVhXPgx-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="310" as="sourcePoint" />
+            <mxPoint x="540" y="295" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uve08fc0GKx82RVhXPgx-7" value="GPT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="245" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uve08fc0GKx82RVhXPgx-8" value="&lt;h1&gt;Results&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="700" y="340" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uve08fc0GKx82RVhXPgx-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Uve08fc0GKx82RVhXPgx-7" target="Uve08fc0GKx82RVhXPgx-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="300" as="sourcePoint" />
+            <mxPoint x="710" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uve08fc0GKx82RVhXPgx-11" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uve08fc0GKx82RVhXPgx-12" value="chat:&lt;br&gt;recentMemory&lt;br&gt;(role: &quot;user&quot;, &quot;assistant&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uve08fc0GKx82RVhXPgx-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uve08fc0GKx82RVhXPgx-12" target="Uve08fc0GKx82RVhXPgx-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="440" as="sourcePoint" />
+            <mxPoint x="180" y="390" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="XZ4tnADGJ3uQHesXeasO" name="第 2 页">
+    <mxGraphModel dx="906" dy="631" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_yargGocO2qEYnLptO8t-3" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 18px; background-color: initial;&quot;&gt;接口metaTool执行流程：&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 18px; background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 18px; background-color: initial;&quot;&gt;1、判断是否是接口类&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2、执行接口类型输出结果，结果以system的角色返回&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3、判断是否中断，如果是则直接将该接口返回信息返回当作下游输入&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;4、如果不中断，则将上游消息、接口返回、自定义消息作为输入发送给GPT，进行信息结果的返回&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;5、执行完毕后，将当前mask设置中的输出角色作为角色构建消息，并传递给下游作为输入&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;可以设置如下：是否是接口类，用什么接口方法（GET，POST），是否中断（如果中断则不设置模型参数），&lt;/div&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="10" width="600" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="_yargGocO2qEYnLptO8t-4" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 18px; background-color: initial;&quot;&gt;非接口metaTool执行流程：&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 18px; background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 18px; background-color: initial;&quot;&gt;1、直接将上游消息作为输入，&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 18px;&quot;&gt;发送给GPT，进行信息结果的返回&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2、执行完毕后，将当前mask设置中的输出角色作为角色构建消息，并传递给下游作为输入&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="310" width="600" height="330" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="9h4BThRrRRmvPaQSG-4f" name="第 3 页">
+    <mxGraphModel dx="906" dy="631" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dvS2g_8QXupvQIideJ23-1" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 18px; background-color: initial;&quot;&gt;角色设置：function，interface，parameter&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;function：该角色从0613模型开始出现，具体作用当下不明，估计跟我想的差不多，是用于规范化GPT输出或者是执行代码逻辑的。&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;interface：该角色是馒头自定的，用于设置接口类的metatool执行操作的，里边设定必须填写调用接口的URL。&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;parameter：该角色是馒头自定的，用于设置当前接口类用于接收的参数，需要注意的是如果在mask的上下文中设置了多个parameter参数，那么会优先接收写在前边的参数，注意每个参数的设置为标准的JSON格式，执行接口中会直接将输入到POST请求中作为参数。&lt;/div&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="10" width="600" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="dvS2g_8QXupvQIideJ23-2" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 18px; background-color: initial;&quot;&gt;接口类执行代码逻辑：GET/POST&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;GET：get方法逻辑，只会从mask设置的上下文context中提取出interface角色的消息，用于执行该接口的返回。&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;POST：post方法逻辑，会从mask设置的上下文context中提取出interface角色的接口地址，同时会提取parameter角色的参数（如果有多个parameter角色消息，只会提取写在最前面的角色的消息，消息的内容必须为标准的JSON格式），执行接口的方法后，用于执行返回。&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="360" width="600" height="330" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="0s5S881c6xjzo_Yq0I3Y" name="第 4 页">
+    <mxGraphModel dx="906" dy="631" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9LVxDoornAGg4JTdJvKr-1" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 18px; background-color: initial;&quot;&gt;角色设置：function，interface，parameter&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;function：该角色从0613模型开始出现，具体作用当下不明，估计跟我想的差不多，是用于规范化GPT输出或者是执行代码逻辑的。&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;interface：该角色是馒头自定的，用于设置接口类的metatool执行操作的，里边设定必须填写调用接口的URL。&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;parameter：该角色是馒头自定的，用于设置当前接口类用于接收的参数，需要注意的是如果在mask的上下文中设置了多个parameter参数，那么会优先接收写在前边的参数，注意每个参数的设置为标准的JSON格式，执行接口中会直接将输入到POST请求中作为参数。&lt;/div&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="10" width="600" height="330" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
