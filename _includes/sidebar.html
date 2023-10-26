@@ -1,7 +1,13 @@
 <script>
        document.getElementById("showIframeButton").addEventListener("click", function() {
-    document.getElementById("myIframe").style.display = "block";
-});
+             var iframe = document.getElementById("myIframe");
+              if(iframe.style.display === "block"){
+                     iframe.style.display = "none";
+              }
+              else if(iframe.style.display === "none"){
+                     iframe.style.display = "block";
+              }
+    });
 </script>
 
 
@@ -60,4 +66,4 @@
   </div>
 {%- endif %}
 <button id="showIframeButton">显示iframe</button>
-<iframe id="myIframe" src="http://127.0.0.1:3000/#/chat/ecfe43fcc81e17593d08296291533b2c/对话/117.50.198.205:8888" style="display: none;"></iframe>
+<iframe id="myIframe" src="http://mentalgpt.cc/#/chat/ecfe43fcc81e17593d08296291533b2c/对话/117.50.198.205:8888" style="display: none;"></iframe>
