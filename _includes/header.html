@@ -1,14 +1,15 @@
 <div class="wrapper">
-  <script>
-    function clickSidebarButton() {
-      const elem = document.getElementById("site-sidebar")
-      if (elem.style.display == "none" || elem.style.display == "") {
-        elem.style.display = "block";
-      } else {
-        elem.style.display = "none";
-      }
+  <style>
+    .resizable-div {
+      width: 600px;
+      height: 400px;
+      resize: both;
+      overflow: auto;
+      position: relative;
+	  display: flex;
+	  z-index: 999;
     }
-  </script>
+  </style>
   <a class="site-sidebar-button" onclick="clickSidebarButton()">
     {%- if site.avatar contains "://" -%}
       {%- assign avatar = site.avatar -%}
