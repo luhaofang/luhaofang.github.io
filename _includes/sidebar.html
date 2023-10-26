@@ -1,29 +1,32 @@
 <script>
-    var buttonContainer = document.getElementById("buttonContainer");
-    var button = document.createElement("button");
-    button.textContent = "显示窗体";
-    buttonContainer.appendChild(button);
+    
 
-    // 点击按钮时显示iframe
-    button.addEventListener("click", function() {
-      var iframe = document.getElementById("myIframe");
-      iframe.src = "http://mentalgpt.cc/#/chat/ecfe43fcc81e17593d08296291533b2c/对话/117.50.198.205:8888";
-      iframe.style.display = "block";
-    });
+document.addEventListener("DOMContentLoaded", function() {
+	
+  var iframeContainer = document.getElementById("mentalgpt");
+  var iframeHeader = document.createElement("iframe");
+  var openFrame = false;
+    
+  var iframe = document.createElement("iframe");
+  iframe.src = "http://127.0.0.1:3000/#/chat/ecfe43fcc81e17593d08296291533b2c/对话/117.50.198.205:8888";
+  iframe.width = "100%";
+  iframe.height = "100%";
+  var openButton = document.getElementById("openButton");
 
-    // 创建关闭按钮
-    var closeButton = document.createElement("button");
-    closeButton.textContent = "关闭窗体";
-    closeButton.style.position = "fixed";
-    closeButton.style.top = "10px";
-    closeButton.style.right = "10px";
-    document.body.appendChild(closeButton);
-
-    // 点击关闭按钮时隐藏iframe
-    closeButton.addEventListener("click", function() {
-      var iframe = document.getElementById("myIframe");
-      iframe.style.display = "none";
-    });
+  openButton.addEventListener("click", function() {
+	if(!openFrame){
+		iframeContainer.appendChild(iframe);
+		openFrame = true;
+		openButton.innerText = "关闭对话";
+	}
+	else{
+		iframeContainer.removeChild(iframe);
+		openFrame = false;
+		openButton.innerText = "开启对话";
+	}
+	
+  });
+});
 
 </script>
 
@@ -83,6 +86,6 @@
   </div>
 {%- endif %}
 <div class="sidebar-section">
-    <div id="buttonContainer"></div>  
-    <iframe id="myIframe"></iframe>
+    <button id="openButton">开启对话</button>
+  <div id="mentalgpt" class="resizable-div"></div>
 </div>
