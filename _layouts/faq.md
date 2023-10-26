@@ -1,0 +1,7 @@
+---
+layout: default
+---
+
+<div id="mentalgpt" class="resizable-div">
+  <iframe src="http://127.0.0.1:3000/#/chat/ecfe43fcc81e17593d08296291533b2c/对话/117.50.198.205:8888" width="100%" height="100%" />
+</div>
