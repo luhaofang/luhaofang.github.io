@@ -1,12 +1,12 @@
 <script>
        document.getElementById("showIframeButton").addEventListener("click", function() {
              var iframe = document.getElementById("myIframe");
-              if(iframe.style.display === "block"){
-                     iframe.style.display = "none";
-              }
-              else if(iframe.style.display === "none"){
-                     iframe.style.display = "block";
-              }
+             var computedStyle = window.getComputedStyle(iframe);
+             if (computedStyle.display === "block") {
+               iframe.style.display = "none";
+             } else {
+               iframe.style.display = "block";
+      }
     });
 </script>
 
